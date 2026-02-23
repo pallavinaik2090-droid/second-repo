@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f9f6f6;
+  color: #333;
+
+}
+
+.container {
+  padding: 40px 80px;
+  width: 90%;
+  height: 60vh;
+}
+.r1{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.s1{
+  flex: 1.5;
+}
+
+.s2 {
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: #c76a84;
+  font-weight: 600;
+}
+
+.s1 h1 {
+  font-size: 42px;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+.s1 h1 span {
+  color: #e23b7e;
+}
+
+.s3{
+  color: #555;
+  max-width: 600px;
+}
+
+.s4 span {
+  background: #ffe5ee;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin-right: 10px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.s5 {
+  flex: 1;
+  background: linear-gradient(135deg, #ff4fa0, #c13dd3);
+  color: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.s5 h3 {
+  margin-top: 0;
+}
+
+.s5 ul {
+  padding-left: 18px;
+}
+
+.s5 li {
+  margin-bottom: 8px;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+}
+
+.l1 {
+  flex: 2;
+}
+
+.l1 h2 {
+  font-size: 28px;
+}
+
+.l2{
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.k1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.k3 {
+  background: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.k2 {
+  background: #ffe5ee;
+  color: #e23b7e;
+}
+
+.k4 {
+  font-size: 12px;
+  color: #888;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.card a {
+  color: #e23b7e;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.l2 {
+  flex: 1;
+}
+
+.sidebar-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-card h4 {
+  margin-top: 0;
+}
+
+.sidebar-card ul {
+  padding-left: 18px;
+}
+
+.highlight-card {
+  background: linear-gradient(135deg, #ffe5ee, #ffd1e8);
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
