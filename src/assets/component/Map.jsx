@@ -1,11 +1,12 @@
 import React from 'react'
 import './Map.css'
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { CiMail } from "react-icons/ci";
-import { CiLocationOn } from "react-icons/ci";
+import { MdMail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import { MdAccessAlarm } from "react-icons/md";
+import { GoClockFill } from "react-icons/go";
+
 const Map = () => {
   return (
      <div className="contact-page">
@@ -24,12 +25,14 @@ const Map = () => {
           </div>
 
           <div className="contact-item">
-            <span className="icon"><CiMail /></span>
+            <span className="icon"><MdMail />
+</span>
             <span>Vedhashree Professional Beauty Parlor and Makeup Studio.com</span>
           </div>
 
           <div className="contact-item1">
-            <span className="icon"><CiLocationOn /></span>
+            <span className="icon"><FaLocationDot />
+</span>
             <span>Bargi, Kumta</span>
           </div>
 
@@ -47,7 +50,8 @@ const Map = () => {
         <div className="contact-right">
           <div className="timing-card">
             <div className="timing-header">
-              <span className="clock"><MdAccessAlarm /></span>
+              <span className="clock"><GoClockFill />
+</span>
               <h3>Parlor Timings</h3>
             </div>
             <p><strong>Opening:</strong> 10:00 AM</p>
