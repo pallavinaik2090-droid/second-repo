@@ -82,7 +82,7 @@ const Blog = () => {
               Glowing skin doesn’t happen overnight. Follow this simple routine
               3 months before your big day for naturally radiant skin.
             </p>
-            <a href="#">Read more </a>
+           <a href="#">Read more </a>
           </div>
         </div>
 

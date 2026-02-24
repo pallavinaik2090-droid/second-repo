@@ -27,7 +27,7 @@ const Map = () => {
           <div className="contact-item">
             <span className="icon"><MdMail />
 </span>
-            <span>Vedhashree Professional Beauty Parlor and Makeup Studio.com</span>
+            <span>Vedhashree Glam Studio.com</span>
           </div>
 
           <div className="contact-item1">
@@ -38,7 +38,7 @@ const Map = () => {
 
           <div className="contact-item">
             <span className="icon"><FaInstagram /></span>
-            <span>@Vedhashree Professional Beauty Parlor and Makeup Studio</span>
+            <span>@Vedhashree Glam Studio</span>
           </div>
 
           <div className="contact-item">
