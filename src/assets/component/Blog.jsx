@@ -54,7 +54,8 @@ const Blog = () => {
               From soft glam to classic traditional looks, explore the most
               loved bridal styles that make you camera-ready and flawless all day.
             </p>
-            <a href="#">Read more </a>
+           <span className='z1'><a href="#">Read more → </a></span>
+           <span className='z2'>From Vedhashree Beauty Care</span>
           </div>
 
           <div className="card">
@@ -68,7 +69,9 @@ const Blog = () => {
               Frequent styling can damage hair if not cared for properly. Here
               are expert-approved tips from our stylists to maintain shine and strength.
             </p>
-            <a href="#">Read more </a>
+           <span className='q1'><a href="#">Read more →</a></span>
+           <span className='q2'>From Vedhashree Beauty Care</span>
+           
           </div>
 
           <div className="card">
@@ -82,7 +85,8 @@ const Blog = () => {
               Glowing skin doesn’t happen overnight. Follow this simple routine
               3 months before your big day for naturally radiant skin.
             </p>
-           <a href="#">Read more </a>
+           <span className='q1'><a href="#">Read more →</a></span>
+           <span className='q2'>From Vedhashree Beauty Care</span>
           </div>
         </div>
 
